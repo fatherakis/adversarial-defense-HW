@@ -12,7 +12,8 @@ OR
 All compiled and generated files are available in this drive link:\
 https://t.ly/_ASab  **Yes it's a drive link, I used a shortener (t.ly) so it won't be too long.**
 
-> [!Notice]
+
+> [!Important]
 > These files are **mandatory** to use the scripts. The folders are oranized per model per dataset with clear labeling for all model states.
 
 
@@ -55,7 +56,7 @@ We will be running the following proceedures:
 * Finally, deploy on hardware device (Versal VCK190) and examine results.
 
 
-> ![Note]
+> [!Note]
 > There are many similarities with another repository of mine: [AOHW-225](https://github.com/fatherakis/AOHW-225) which was for the AMD Open Hardware Competition. That repository contains fully step-by-step instructions for **1 of the 6** model-dataset combinations. Specifically its for MobileNetV2 and CIFAR-10. However, the process is the exact same for everything except some small adjustments or in the case of FashionMNIST versions, major model and dataset changes (the training code is still the same).
 If you are interested in running anything, please check that [guide there](https://github.com/fatherakis/AOHW-225/readme.md) and then adjust accordingly with the resources here.
 
