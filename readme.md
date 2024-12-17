@@ -14,16 +14,18 @@ https://t.ly/_ASab  **Yes it's a drive link, I used a shortener (t.ly) so it won
 
 
 > [!Important]
-> These files are **mandatory** to use the scripts. The folders are oranized per model per dataset with clear labeling for all model states.
+> These files are **mandatory** to use the scripts. The folders are organized per model per dataset with clear labeling for all model states.
 
 
 A summary on this repo and the scope of my thesis:
 
 ```
-Convolutional Neural Networks while highly effective for pattern recognition, are vulnerable to small perturbations
-in the input (image) leading to erroneous predictions. This issue is further amplified in hardware implementations
-due to precision limitations and requirements like quantization. In this thesis we propose a series of adversarial
-defense strategies in order to enhance the robustness of neural networks specifically in hardware applications.
+Convolutional Neural Networks while highly effective for pattern recognition,
+are vulnerable to small perturbations in the input (image) leading to erroneous predictions.
+This issue is further amplified in hardware implementationsdue to precision
+limitations and requirements like quantization. In this thesis we propose a
+series of adversarial defense strategies in order to enhance the robustness
+of neural networks specifically in hardware applications.
 All in all, through this process a 45% increase in robustness is achieved.
 ```
 
