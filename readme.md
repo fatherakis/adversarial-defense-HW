@@ -12,14 +12,21 @@ OR
 All compiled and generated files are available in this drive link:\
 https://t.ly/_ASab  **Yes it's a drive link, I used a shortener (t.ly) so it won't be too long.**
 
-> [!Notice]
-> These files are **mandatory** to use the scripts. The folders are oranized per model per dataset with clear labeling for all model states.
+
+> [!Important]
+> These files are **mandatory** to use the scripts. The folders are organized per model per dataset with clear labeling for all model states.
 
 
 A summary on this repo and the scope of my thesis:
 
 ```
-    Convolutional Neural Networks while highly effective for pattern recognition, are vulnerable to small perturbations in the input (image) leading to erroneous predictions. This issue is further amplified in hardware implementations due to precision limitations and requirements like quantization. In this thesis we propose a series of adversarial defense strategies in order to enhance the robustness of neural networks specifically in hardware applications. All in all, through this process a 45% increase in robustness is achieved.
+Convolutional Neural Networks while highly effective for pattern recognition,
+are vulnerable to small perturbations in the input (image) leading to erroneous predictions.
+This issue is further amplified in hardware implementationsdue to precision
+limitations and requirements like quantization. In this thesis we propose a
+series of adversarial defense strategies in order to enhance the robustness
+of neural networks specifically in hardware applications.
+All in all, through this process a 45% increase in robustness is achieved.
 ```
 
 Mostly python and jupyter notebooks are used with the PyTorch Framework. For the hardware, we use Xilinx/AMD Versal SoC VCK190 board with its accompanied VitisAI 3.0 software for compilation and support. Lastly, credits for all libraries, pretrained models and resourses are also inlcuded in the thesis references section.
@@ -55,7 +62,7 @@ We will be running the following proceedures:
 * Finally, deploy on hardware device (Versal VCK190) and examine results.
 
 
-> ![Note]
+> [!Note]
 > There are many similarities with another repository of mine: [AOHW-225](https://github.com/fatherakis/AOHW-225) which was for the AMD Open Hardware Competition. That repository contains fully step-by-step instructions for **1 of the 6** model-dataset combinations. Specifically its for MobileNetV2 and CIFAR-10. However, the process is the exact same for everything except some small adjustments or in the case of FashionMNIST versions, major model and dataset changes (the training code is still the same).
 If you are interested in running anything, please check that [guide there](https://github.com/fatherakis/AOHW-225/readme.md) and then adjust accordingly with the resources here.
 
